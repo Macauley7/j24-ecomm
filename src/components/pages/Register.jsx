@@ -26,7 +26,7 @@ function Register() {
     console.log("Submitted")
 
     try {
-      const res = await fetch("http://localhost:8000/api/register", {
+      const res = await fetch("https://j24-ecomm-api.onrender.com/api/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
